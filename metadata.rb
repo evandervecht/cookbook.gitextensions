@@ -1,7 +1,12 @@
-name             'git-extensions'
-maintainer       'Ellert van der Vecht'
+name 'git-extensions'
+maintainer 'Ellert van der Vecht'
 maintainer_email 'evandervecht@schubergphilis.com'
-license          'All rights reserved'
-description      'Installs/Configures winscp'
+license 'All rights reserved'
+description 'Installs/Configures git-extensions'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.1.0'
+recipe 'git-extensions::default', 'Installs Git Extensions'
+version '0.1.0'
+
+supports 'windows'
+
+depends 'windows'
