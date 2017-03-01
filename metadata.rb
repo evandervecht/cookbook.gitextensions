@@ -10,3 +10,6 @@ version '0.1.1'
 supports 'windows'
 
 depends 'windows'
+
+source_url 'https://github.com/ridiculousness/cookbook.gitextensions'
+issues_url 'https://github.com/ridiculousness/cookbook.gitextensions/issues'
