@@ -5,7 +5,7 @@ license 'All rights reserved'
 description 'Installs/Configures git-extensions'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 recipe 'git-extensions::default', 'Installs Git Extensions'
-version '0.1.0'
+version '0.1.1'
 
 supports 'windows'
 
